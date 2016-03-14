@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F01E9121C9636E800032423 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F01E9111C9636E800032423 /* Default-568h@2x.png */; };
+		8F08D8081B0E6D7C00F18FC3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F08D8071B0E6D7C00F18FC3 /* AppDelegate.swift */; };
+		8F08D80A1B0E6D7C00F18FC3 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F08D8091B0E6D7C00F18FC3 /* RootViewController.swift */; };
+		8F08D80C1B0E6D7C00F18FC3 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F08D80B1B0E6D7C00F18FC3 /* DataViewController.swift */; };
+		8F08D80E1B0E6D7C00F18FC3 /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F08D80D1B0E6D7C00F18FC3 /* ModelController.swift */; };
+		8F08D8131B0E6D7C00F18FC3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F08D8121B0E6D7C00F18FC3 /* Images.xcassets */; };
+		8F08D8161B0E6D7C00F18FC3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F08D8141B0E6D7C00F18FC3 /* LaunchScreen.xib */; };
+		8F08D8221B0E6D7C00F18FC3 /* CACHC_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F08D8211B0E6D7C00F18FC3 /* CACHC_AppTests.swift */; };
+		8F25C7721C460437005C7CDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F25C7711C460437005C7CDD /* Main.storyboard */; };
+		8F6BE8471BCE245900651BBC /* CAC_logo_vectored_colored.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F6BE8461BCE245900651BBC /* CAC_logo_vectored_colored.png */; };
+		8F6C1C031B87B920002AA537 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6C1C021B87B920002AA537 /* ThirdViewController.swift */; };
+		8F8F1D991BB730CD00E5B531 /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8F1D981BB730CD00E5B531 /* FourthViewController.swift */; };
+		8F8F1D9B1BB7563800E5B531 /* FifthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8F1D9A1BB7563800E5B531 /* FifthViewController.swift */; };
+		8FE23E9D1C3F3E0A006FEA88 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE23E9C1C3F3E0A006FEA88 /* SecondViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8F08D81C1B0E6D7C00F18FC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F08D7FA1B0E6D7C00F18FC3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F08D8011B0E6D7C00F18FC3;
+			remoteInfo = "Child Abuse App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8F01E9111C9636E800032423 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		8F08D8061B0E6D7C00F18FC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../CACHC App/Info.plist"; sourceTree = "<group>"; };
+		8F08D8071B0E6D7C00F18FC3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "../CACHC App/AppDelegate.swift"; sourceTree = "<group>"; };
+		8F08D8091B0E6D7C00F18FC3 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RootViewController.swift; path = "../CACHC App/RootViewController.swift"; sourceTree = "<group>"; };
+		8F08D80B1B0E6D7C00F18FC3 /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DataViewController.swift; path = "../CACHC App/DataViewController.swift"; sourceTree = "<group>"; };
+		8F08D80D1B0E6D7C00F18FC3 /* ModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ModelController.swift; path = "../CACHC App/ModelController.swift"; sourceTree = "<group>"; };
+		8F08D8121B0E6D7C00F18FC3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "../CACHC App/Images.xcassets"; sourceTree = "<group>"; };
+		8F08D8151B0E6D7C00F18FC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		8F08D8201B0E6D7C00F18FC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = Info.plist; path = "CACHC AppTests/Info.plist"; sourceTree = "<group>"; };
+		8F08D8211B0E6D7C00F18FC3 /* CACHC_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CACHC_AppTests.swift; path = "CACHC AppTests/CACHC_AppTests.swift"; sourceTree = "<group>"; };
+		8F25C7711C460437005C7CDD /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = "../CACHC App/Main.storyboard"; sourceTree = "<group>"; };
+		8F6BE8461BCE245900651BBC /* CAC_logo_vectored_colored.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CAC_logo_vectored_colored.png; path = ../../CAC_logo_vectored_colored.png; sourceTree = "<group>"; };
+		8F6C1C021B87B920002AA537 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ThirdViewController.swift; path = "../CACHC App/ThirdViewController.swift"; sourceTree = "<group>"; };
+		8F8F1D981BB730CD00E5B531 /* FourthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FourthViewController.swift; path = "../CACHC App/FourthViewController.swift"; sourceTree = "<group>"; };
+		8F8F1D9A1BB7563800E5B531 /* FifthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FifthViewController.swift; path = "../CACHC App/FifthViewController.swift"; sourceTree = "<group>"; };
+		8FC2B9221BA222DE00B5F3D0 /* CACHC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CACHC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FC2B9231BA222DE00B5F3D0 /* CACHCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CACHCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FE23E9C1C3F3E0A006FEA88 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SecondViewController.swift; path = "../CACHC App/SecondViewController.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8F08D7FF1B0E6D7C00F18FC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F08D8181B0E6D7C00F18FC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8F08D7F91B0E6D7C00F18FC3 = {
+			isa = PBXGroup;
+			children = (
+				8F01E9111C9636E800032423 /* Default-568h@2x.png */,
+				8F08D8041B0E6D7C00F18FC3 /* CACHC App */,
+				8F08D81E1B0E6D7C00F18FC3 /* CACHCTests */,
+				8FC2B9221BA222DE00B5F3D0 /* CACHC.app */,
+				8FC2B9231BA222DE00B5F3D0 /* CACHCTests.xctest */,
+			);
+			sourceTree = "<group>";
+		};
+		8F08D8041B0E6D7C00F18FC3 /* CACHC App */ = {
+			isa = PBXGroup;
+			children = (
+				8F08D8071B0E6D7C00F18FC3 /* AppDelegate.swift */,
+				8F08D8091B0E6D7C00F18FC3 /* RootViewController.swift */,
+				8F08D80B1B0E6D7C00F18FC3 /* DataViewController.swift */,
+				8FE23E9C1C3F3E0A006FEA88 /* SecondViewController.swift */,
+				8F6C1C021B87B920002AA537 /* ThirdViewController.swift */,
+				8F8F1D981BB730CD00E5B531 /* FourthViewController.swift */,
+				8F8F1D9A1BB7563800E5B531 /* FifthViewController.swift */,
+				8F25C7711C460437005C7CDD /* Main.storyboard */,
+				8F08D80D1B0E6D7C00F18FC3 /* ModelController.swift */,
+				8F6BE8461BCE245900651BBC /* CAC_logo_vectored_colored.png */,
+				8F08D8121B0E6D7C00F18FC3 /* Images.xcassets */,
+				8F08D8141B0E6D7C00F18FC3 /* LaunchScreen.xib */,
+				8F08D8051B0E6D7C00F18FC3 /* Supporting Files */,
+			);
+			name = "CACHC App";
+			path = "Child Abuse App";
+			sourceTree = "<group>";
+		};
+		8F08D8051B0E6D7C00F18FC3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8F08D8061B0E6D7C00F18FC3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8F08D81E1B0E6D7C00F18FC3 /* CACHCTests */ = {
+			isa = PBXGroup;
+			children = (
+				8F08D8211B0E6D7C00F18FC3 /* CACHC_AppTests.swift */,
+				8F08D81F1B0E6D7C00F18FC3 /* Supporting Files */,
+			);
+			name = CACHCTests;
+			path = "Child Abuse AppTests";
+			sourceTree = "<group>";
+		};
+		8F08D81F1B0E6D7C00F18FC3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8F08D8201B0E6D7C00F18FC3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8F08D8011B0E6D7C00F18FC3 /* CACHC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F08D8251B0E6D7C00F18FC3 /* Build configuration list for PBXNativeTarget "CACHC" */;
+			buildPhases = (
+				8F08D7FE1B0E6D7C00F18FC3 /* Sources */,
+				8F08D7FF1B0E6D7C00F18FC3 /* Frameworks */,
+				8F08D8001B0E6D7C00F18FC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CACHC;
+			productName = "Child Abuse App";
+			productReference = 8FC2B9221BA222DE00B5F3D0 /* CACHC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8F08D81A1B0E6D7C00F18FC3 /* CACHCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F08D8281B0E6D7C00F18FC3 /* Build configuration list for PBXNativeTarget "CACHCTests" */;
+			buildPhases = (
+				8F08D8171B0E6D7C00F18FC3 /* Sources */,
+				8F08D8181B0E6D7C00F18FC3 /* Frameworks */,
+				8F08D8191B0E6D7C00F18FC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F08D81D1B0E6D7C00F18FC3 /* PBXTargetDependency */,
+			);
+			name = CACHCTests;
+			productName = "Child Abuse AppTests";
+			productReference = 8FC2B9231BA222DE00B5F3D0 /* CACHCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8F08D7FA1B0E6D7C00F18FC3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Ed Carroll";
+				TargetAttributes = {
+					8F08D8011B0E6D7C00F18FC3 = {
+						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = 4Q43WW846Q;
+					};
+					8F08D81A1B0E6D7C00F18FC3 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 8F08D8011B0E6D7C00F18FC3;
+					};
+				};
+			};
+			buildConfigurationList = 8F08D7FD1B0E6D7C00F18FC3 /* Build configuration list for PBXProject "CACHC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8F08D7F91B0E6D7C00F18FC3;
+			productRefGroup = 8F08D7F91B0E6D7C00F18FC3;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F08D8011B0E6D7C00F18FC3 /* CACHC */,
+				8F08D81A1B0E6D7C00F18FC3 /* CACHCTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8F08D8001B0E6D7C00F18FC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F08D8161B0E6D7C00F18FC3 /* LaunchScreen.xib in Resources */,
+				8F25C7721C460437005C7CDD /* Main.storyboard in Resources */,
+				8F08D8131B0E6D7C00F18FC3 /* Images.xcassets in Resources */,
+				8F01E9121C9636E800032423 /* Default-568h@2x.png in Resources */,
+				8F6BE8471BCE245900651BBC /* CAC_logo_vectored_colored.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F08D8191B0E6D7C00F18FC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8F08D7FE1B0E6D7C00F18FC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FE23E9D1C3F3E0A006FEA88 /* SecondViewController.swift in Sources */,
+				8F08D80A1B0E6D7C00F18FC3 /* RootViewController.swift in Sources */,
+				8F6C1C031B87B920002AA537 /* ThirdViewController.swift in Sources */,
+				8F8F1D991BB730CD00E5B531 /* FourthViewController.swift in Sources */,
+				8F8F1D9B1BB7563800E5B531 /* FifthViewController.swift in Sources */,
+				8F08D80E1B0E6D7C00F18FC3 /* ModelController.swift in Sources */,
+				8F08D80C1B0E6D7C00F18FC3 /* DataViewController.swift in Sources */,
+				8F08D8081B0E6D7C00F18FC3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F08D8171B0E6D7C00F18FC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F08D8221B0E6D7C00F18FC3 /* CACHC_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8F08D81D1B0E6D7C00F18FC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F08D8011B0E6D7C00F18FC3 /* CACHC */;
+			targetProxy = 8F08D81C1B0E6D7C00F18FC3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8F08D8141B0E6D7C00F18FC3 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F08D8151B0E6D7C00F18FC3 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			path = "../CACHC App";
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8F08D8231B0E6D7C00F18FC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8F08D8241B0E6D7C00F18FC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8F08D8261B0E6D7C00F18FC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "$(SRCROOT)/CACHC App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.self.CACHC;
+				PRODUCT_NAME = CACHC;
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		8F08D8271B0E6D7C00F18FC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "$(SRCROOT)/CACHC App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.self.CACHC;
+				PRODUCT_NAME = CACHC;
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		8F08D8291B0E6D7C00F18FC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Child Abuse AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = CACHCTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Child Abuse App.app/Child Abuse App";
+			};
+			name = Debug;
+		};
+		8F08D82A1B0E6D7C00F18FC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Child Abuse AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = CACHCTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Child Abuse App.app/Child Abuse App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8F08D7FD1B0E6D7C00F18FC3 /* Build configuration list for PBXProject "CACHC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F08D8231B0E6D7C00F18FC3 /* Debug */,
+				8F08D8241B0E6D7C00F18FC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F08D8251B0E6D7C00F18FC3 /* Build configuration list for PBXNativeTarget "CACHC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F08D8261B0E6D7C00F18FC3 /* Debug */,
+				8F08D8271B0E6D7C00F18FC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F08D8281B0E6D7C00F18FC3 /* Build configuration list for PBXNativeTarget "CACHCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F08D8291B0E6D7C00F18FC3 /* Debug */,
+				8F08D82A1B0E6D7C00F18FC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8F08D7FA1B0E6D7C00F18FC3 /* Project object */;
+}

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+  <file original="Child Abuse App/Base.lproj/LaunchScreen.xib" source-language="en" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.1" build-num="7B91b"/>
+    </header>
+    <body/>
+  </file>
+  <file original="Child Abuse App/Base.lproj/Main.storyboard" source-language="en" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.1" build-num="7B91b"/>
+    </header>
+    <body>
+      <trans-unit id="1pt-F3-DZb.title">
+        <source>CACHC</source>
+        <note>Class = "UINavigationItem"; title = "CACHC"; ObjectID = "1pt-F3-DZb";</note>
+      </trans-unit>
+      <trans-unit id="4Ji-6S-mx1.normalTitle">
+        <source>DonorView</source>
+        <note>Class = "UIButton"; normalTitle = "DonorView"; ObjectID = "4Ji-6S-mx1";</note>
+      </trans-unit>
+      <trans-unit id="6OL-du-vR2.normalTitle">
+        <source>Facebook</source>
+        <note>Class = "UIButton"; normalTitle = "Facebook"; ObjectID = "6OL-du-vR2";</note>
+      </trans-unit>
+      <trans-unit id="8vU-YL-Fvf.title">
+        <source>Support</source>
+        <note>Class = "UIViewController"; title = "Support"; ObjectID = "8vU-YL-Fvf";</note>
+      </trans-unit>
+      <trans-unit id="9Hz-4L-gJe.normalTitle">
+        <source>Instagram</source>
+        <note>Class = "UIButton"; normalTitle = "Instagram"; ObjectID = "9Hz-4L-gJe";</note>
+      </trans-unit>
+      <trans-unit id="12u-d3-VHx.normalTitle">
+        <source>Report</source>
+        <note>Class = "UIButton"; normalTitle = "Report"; ObjectID = "12u-d3-VHx";</note>
+      </trans-unit>
+      <trans-unit id="32W-0N-V25.text">
+        <source>Select your state:</source>
+        <note>Class = "UILabel"; text = "Select your state:"; ObjectID = "32W-0N-V25";</note>
+      </trans-unit>
+      <trans-unit id="I8n-NM-Pnq.text">
+        <source>Follow us:</source>
+        <note>Class = "UILabel"; text = "Follow us:"; ObjectID = "I8n-NM-Pnq";</note>
+      </trans-unit>
+      <trans-unit id="PPP-Mb-R1w.normalTitle">
+        <source>Call/Url Button</source>
+        <note>Class = "UIButton"; normalTitle = "Call/Url Button"; ObjectID = "PPP-Mb-R1w";</note>
+      </trans-unit>
+      <trans-unit id="R1U-XV-0Bn.normalTitle">
+        <source>Share a hotline</source>
+        <note>Class = "UIButton"; normalTitle = "Share a hotline"; ObjectID = "R1U-XV-0Bn";</note>
+      </trans-unit>
+      <trans-unit id="SMM-VP-i2R.title">
+        <source>Share</source>
+        <note>Class = "UIViewController"; title = "Share"; ObjectID = "SMM-VP-i2R";</note>
+      </trans-unit>
+      <trans-unit id="SQr-vx-AKV.title">
+        <source>Report</source>
+        <note>Class = "UIViewController"; title = "Report"; ObjectID = "SQr-vx-AKV";</note>
+      </trans-unit>
+      <trans-unit id="Xrc-EG-Po3.text">
+        <source>Donate:</source>
+        <note>Class = "UILabel"; text = "Donate:"; ObjectID = "Xrc-EG-Po3";</note>
+      </trans-unit>
+      <trans-unit id="ZYD-I9-7pm.normalTitle">
+        <source>Support</source>
+        <note>Class = "UIButton"; normalTitle = "Support"; ObjectID = "ZYD-I9-7pm";</note>
+      </trans-unit>
+      <trans-unit id="ayC-me-c6P.title">
+        <source>Share Hotline</source>
+        <note>Class = "UIViewController"; title = "Share Hotline"; ObjectID = "ayC-me-c6P";</note>
+      </trans-unit>
+      <trans-unit id="bNo-Rt-LEv.text">
+        <source>Select a state hotline to share:</source>
+        <note>Class = "UILabel"; text = "Select a state hotline to share:"; ObjectID = "bNo-Rt-LEv";</note>
+      </trans-unit>
+      <trans-unit id="hKO-es-Wnk.normalTitle">
+        <source>Email</source>
+        <note>Class = "UIButton"; normalTitle = "Email"; ObjectID = "hKO-es-Wnk";</note>
+      </trans-unit>
+      <trans-unit id="hzS-jB-y9W.title">
+        <source>Home</source>
+        <note>Class = "UIViewController"; title = "Home"; ObjectID = "hzS-jB-y9W";</note>
+      </trans-unit>
+      <trans-unit id="m6y-hq-0xX.normalTitle">
+        <source>Learn</source>
+        <note>Class = "UIButton"; normalTitle = "Learn"; ObjectID = "m6y-hq-0xX";</note>
+      </trans-unit>
+      <trans-unit id="mxd-7u-IG5.normalTitle">
+        <source>Share</source>
+        <note>Class = "UIButton"; normalTitle = "Share"; ObjectID = "mxd-7u-IG5";</note>
+      </trans-unit>
+      <trans-unit id="nFr-Bv-XpG.normalTitle">
+        <source>Hotline/Url Button</source>
+        <note>Class = "UIButton"; normalTitle = "Hotline/Url Button"; ObjectID = "nFr-Bv-XpG";</note>
+      </trans-unit>
+      <trans-unit id="rH2-SB-2xc.normalTitle">
+        <source>Share this app</source>
+        <note>Class = "UIButton"; normalTitle = "Share this app"; ObjectID = "rH2-SB-2xc";</note>
+      </trans-unit>
+      <trans-unit id="v8h-gc-kb4.normalTitle">
+        <source>Services</source>
+        <note>Class = "UIButton"; normalTitle = "Services"; ObjectID = "v8h-gc-kb4";</note>
+      </trans-unit>
+      <trans-unit id="w4w-JH-sh6.text">
+        <source>Volunteer:</source>
+        <note>Class = "UILabel"; text = "Volunteer:"; ObjectID = "w4w-JH-sh6";</note>
+      </trans-unit>
+      <trans-unit id="xGS-kb-nol.normalTitle">
+        <source>Twitter</source>
+        <note>Class = "UIButton"; normalTitle = "Twitter"; ObjectID = "xGS-kb-nol";</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="Child Abuse App/Info.plist" source-language="en" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.1" build-num="7B91b"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleDisplayName">
+        <source>CACHC</source>
+      </trans-unit>
+      <trans-unit id="CFBundleName">
+        <source>$(PRODUCT_NAME)</source>
+      </trans-unit>
+      <trans-unit id="CFBundleShortVersionString">
+        <source>1.0</source>
+      </trans-unit>
+      <trans-unit id="NSHumanReadableCopyright">
+        <source>Copyright © Edward Carroll. All rights reserved.</source>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
