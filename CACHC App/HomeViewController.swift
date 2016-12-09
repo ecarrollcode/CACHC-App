@@ -11,16 +11,12 @@ import MessageUI
 import Foundation
 
 
-class DataViewController: UIViewController {
+class HomeViewController: UIViewController {
     
     //MARK: Outlets
     @IBOutlet weak var linkToYoutube: UIButton!
     @IBOutlet weak var linkToWebsite: UIButton!
 
-    
-    //MARK: Variables
-    //called in ModelController.swift
-    var dataObject: AnyObject?
     
     //MARK: Life Cycle
     override func viewDidLoad() {

@@ -9,18 +9,17 @@
 /* Begin PBXBuildFile section */
 		8F01E9121C9636E800032423 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F01E9111C9636E800032423 /* Default-568h@2x.png */; };
 		8F08D8081B0E6D7C00F18FC3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F08D8071B0E6D7C00F18FC3 /* AppDelegate.swift */; };
-		8F08D80A1B0E6D7C00F18FC3 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F08D8091B0E6D7C00F18FC3 /* RootViewController.swift */; };
-		8F08D80C1B0E6D7C00F18FC3 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F08D80B1B0E6D7C00F18FC3 /* DataViewController.swift */; };
-		8F08D80E1B0E6D7C00F18FC3 /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F08D80D1B0E6D7C00F18FC3 /* ModelController.swift */; };
+		8F08D80C1B0E6D7C00F18FC3 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F08D80B1B0E6D7C00F18FC3 /* HomeViewController.swift */; };
 		8F08D8131B0E6D7C00F18FC3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F08D8121B0E6D7C00F18FC3 /* Images.xcassets */; };
 		8F08D8161B0E6D7C00F18FC3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F08D8141B0E6D7C00F18FC3 /* LaunchScreen.xib */; };
 		8F08D8221B0E6D7C00F18FC3 /* CACHC_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F08D8211B0E6D7C00F18FC3 /* CACHC_AppTests.swift */; };
 		8F25C7721C460437005C7CDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F25C7711C460437005C7CDD /* Main.storyboard */; };
+		8F42E14E1DECDD5700A9C889 /* HotlineData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F42E14D1DECDD5700A9C889 /* HotlineData.swift */; };
 		8F6BE8471BCE245900651BBC /* CAC_logo_vectored_colored.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F6BE8461BCE245900651BBC /* CAC_logo_vectored_colored.png */; };
-		8F6C1C031B87B920002AA537 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6C1C021B87B920002AA537 /* ThirdViewController.swift */; };
-		8F8F1D991BB730CD00E5B531 /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8F1D981BB730CD00E5B531 /* FourthViewController.swift */; };
-		8F8F1D9B1BB7563800E5B531 /* FifthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8F1D9A1BB7563800E5B531 /* FifthViewController.swift */; };
-		8FE23E9D1C3F3E0A006FEA88 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE23E9C1C3F3E0A006FEA88 /* SecondViewController.swift */; };
+		8F6C1C031B87B920002AA537 /* SupportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6C1C021B87B920002AA537 /* SupportViewController.swift */; };
+		8F8F1D991BB730CD00E5B531 /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8F1D981BB730CD00E5B531 /* ShareViewController.swift */; };
+		8F8F1D9B1BB7563800E5B531 /* ShareHotlineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8F1D9A1BB7563800E5B531 /* ShareHotlineViewController.swift */; };
+		8FE23E9D1C3F3E0A006FEA88 /* ReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE23E9C1C3F3E0A006FEA88 /* ReportViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,21 +36,20 @@
 		8F01E9111C9636E800032423 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		8F08D8061B0E6D7C00F18FC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../CACHC App/Info.plist"; sourceTree = "<group>"; };
 		8F08D8071B0E6D7C00F18FC3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "../CACHC App/AppDelegate.swift"; sourceTree = "<group>"; };
-		8F08D8091B0E6D7C00F18FC3 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RootViewController.swift; path = "../CACHC App/RootViewController.swift"; sourceTree = "<group>"; };
-		8F08D80B1B0E6D7C00F18FC3 /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DataViewController.swift; path = "../CACHC App/DataViewController.swift"; sourceTree = "<group>"; };
-		8F08D80D1B0E6D7C00F18FC3 /* ModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ModelController.swift; path = "../CACHC App/ModelController.swift"; sourceTree = "<group>"; };
+		8F08D80B1B0E6D7C00F18FC3 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		8F08D8121B0E6D7C00F18FC3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "../CACHC App/Images.xcassets"; sourceTree = "<group>"; };
 		8F08D8151B0E6D7C00F18FC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		8F08D8201B0E6D7C00F18FC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = Info.plist; path = "CACHC AppTests/Info.plist"; sourceTree = "<group>"; };
 		8F08D8211B0E6D7C00F18FC3 /* CACHC_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CACHC_AppTests.swift; path = "CACHC AppTests/CACHC_AppTests.swift"; sourceTree = "<group>"; };
 		8F25C7711C460437005C7CDD /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = "../CACHC App/Main.storyboard"; sourceTree = "<group>"; };
+		8F42E14D1DECDD5700A9C889 /* HotlineData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HotlineData.swift; sourceTree = "<group>"; };
 		8F6BE8461BCE245900651BBC /* CAC_logo_vectored_colored.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CAC_logo_vectored_colored.png; path = ../../CAC_logo_vectored_colored.png; sourceTree = "<group>"; };
-		8F6C1C021B87B920002AA537 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ThirdViewController.swift; path = "../CACHC App/ThirdViewController.swift"; sourceTree = "<group>"; };
-		8F8F1D981BB730CD00E5B531 /* FourthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FourthViewController.swift; path = "../CACHC App/FourthViewController.swift"; sourceTree = "<group>"; };
-		8F8F1D9A1BB7563800E5B531 /* FifthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FifthViewController.swift; path = "../CACHC App/FifthViewController.swift"; sourceTree = "<group>"; };
+		8F6C1C021B87B920002AA537 /* SupportViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SupportViewController.swift; sourceTree = "<group>"; };
+		8F8F1D981BB730CD00E5B531 /* ShareViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
+		8F8F1D9A1BB7563800E5B531 /* ShareHotlineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShareHotlineViewController.swift; sourceTree = "<group>"; };
 		8FC2B9221BA222DE00B5F3D0 /* CACHC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CACHC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FC2B9231BA222DE00B5F3D0 /* CACHCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CACHCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8FE23E9C1C3F3E0A006FEA88 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SecondViewController.swift; path = "../CACHC App/SecondViewController.swift"; sourceTree = "<group>"; };
+		8FE23E9C1C3F3E0A006FEA88 /* ReportViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReportViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,21 +85,19 @@
 			isa = PBXGroup;
 			children = (
 				8F08D8071B0E6D7C00F18FC3 /* AppDelegate.swift */,
-				8F08D8091B0E6D7C00F18FC3 /* RootViewController.swift */,
-				8F08D80B1B0E6D7C00F18FC3 /* DataViewController.swift */,
-				8FE23E9C1C3F3E0A006FEA88 /* SecondViewController.swift */,
-				8F6C1C021B87B920002AA537 /* ThirdViewController.swift */,
-				8F8F1D981BB730CD00E5B531 /* FourthViewController.swift */,
-				8F8F1D9A1BB7563800E5B531 /* FifthViewController.swift */,
+				8F08D80B1B0E6D7C00F18FC3 /* HomeViewController.swift */,
+				8FE23E9C1C3F3E0A006FEA88 /* ReportViewController.swift */,
+				8F6C1C021B87B920002AA537 /* SupportViewController.swift */,
+				8F8F1D981BB730CD00E5B531 /* ShareViewController.swift */,
+				8F8F1D9A1BB7563800E5B531 /* ShareHotlineViewController.swift */,
+				8F42E14D1DECDD5700A9C889 /* HotlineData.swift */,
 				8F25C7711C460437005C7CDD /* Main.storyboard */,
-				8F08D80D1B0E6D7C00F18FC3 /* ModelController.swift */,
 				8F6BE8461BCE245900651BBC /* CAC_logo_vectored_colored.png */,
 				8F08D8121B0E6D7C00F18FC3 /* Images.xcassets */,
 				8F08D8141B0E6D7C00F18FC3 /* LaunchScreen.xib */,
 				8F08D8051B0E6D7C00F18FC3 /* Supporting Files */,
 			);
-			name = "CACHC App";
-			path = "Child Abuse App";
+			path = "CACHC App";
 			sourceTree = "<group>";
 		};
 		8F08D8051B0E6D7C00F18FC3 /* Supporting Files */ = {
@@ -176,7 +172,7 @@
 			attributes = {
 				LastSwiftMigration = 0700;
 				LastSwiftUpdateCheck = 0700;
-				LastUpgradeCheck = 0700;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = "Ed Carroll";
 				TargetAttributes = {
 					8F08D8011B0E6D7C00F18FC3 = {
@@ -235,13 +231,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8FE23E9D1C3F3E0A006FEA88 /* SecondViewController.swift in Sources */,
-				8F08D80A1B0E6D7C00F18FC3 /* RootViewController.swift in Sources */,
-				8F6C1C031B87B920002AA537 /* ThirdViewController.swift in Sources */,
-				8F8F1D991BB730CD00E5B531 /* FourthViewController.swift in Sources */,
-				8F8F1D9B1BB7563800E5B531 /* FifthViewController.swift in Sources */,
-				8F08D80E1B0E6D7C00F18FC3 /* ModelController.swift in Sources */,
-				8F08D80C1B0E6D7C00F18FC3 /* DataViewController.swift in Sources */,
+				8FE23E9D1C3F3E0A006FEA88 /* ReportViewController.swift in Sources */,
+				8F42E14E1DECDD5700A9C889 /* HotlineData.swift in Sources */,
+				8F6C1C031B87B920002AA537 /* SupportViewController.swift in Sources */,
+				8F8F1D991BB730CD00E5B531 /* ShareViewController.swift in Sources */,
+				8F8F1D9B1BB7563800E5B531 /* ShareHotlineViewController.swift in Sources */,
+				8F08D80C1B0E6D7C00F18FC3 /* HomeViewController.swift in Sources */,
 				8F08D8081B0E6D7C00F18FC3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -290,8 +285,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -314,11 +311,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
@@ -335,8 +333,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -352,9 +352,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 2.3;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;

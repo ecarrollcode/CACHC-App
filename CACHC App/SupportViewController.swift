@@ -10,7 +10,7 @@ import UIKit
 import MessageUI
 import Foundation
 
-class ThirdViewController: UIViewController, MFMailComposeViewControllerDelegate {
+class SupportViewController: UIViewController, MFMailComposeViewControllerDelegate {
     
     //MARK: Outlets
     @IBOutlet weak var twitButton: UIButton!
@@ -73,7 +73,6 @@ class ThirdViewController: UIViewController, MFMailComposeViewControllerDelegate
     }
     
     @IBAction func volButton(sender: AnyObject) {
-        
         let mailComposeViewController = configuredMailComposeViewController()
         
         if MFMailComposeViewController.canSendMail() {
@@ -102,8 +101,5 @@ class ThirdViewController: UIViewController, MFMailComposeViewControllerDelegate
     
     func mailComposeController(controller: MFMailComposeViewController, didFinishWithResult result: MFMailComposeResult, error: NSError?) {
         controller.dismissViewControllerAnimated(true, completion: nil)
-    }
-    
-    
-    
+    }  
 }
