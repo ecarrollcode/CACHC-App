@@ -23,17 +23,17 @@ class HomeViewController: UIViewController {
         super.viewDidLoad()
         
         //Creates custom back bar for Report and Support pages
-        let backItem = UIBarButtonItem(title: "Back", style: .Plain, target: nil, action: nil)
+        let backItem = UIBarButtonItem(title: "Back", style: .plain, target: nil, action: nil)
         navigationItem.backBarButtonItem = backItem
     }
     
     //MARK: Actions
-    @IBAction func linkToYoutube(sender: AnyObject) {
-        UIApplication.sharedApplication().openURL(NSURL(string: "https://www.youtube.com/channel/UCenGSAyhfiYa0HaiNxyeeKQ")!)
+    @IBAction func linkToYoutube(_ sender: Any) {
+        UIApplication.shared.openURL(URL(string: "https://www.youtube.com/channel/UCenGSAyhfiYa0HaiNxyeeKQ")!)
     }
 
-    @IBAction func linkToWebsite(sender: AnyObject) {
-        UIApplication.sharedApplication().openURL(NSURL(string: "http://www.cachc.org/services.htm")!)
+    @IBAction func linkToWebsite(_ sender: Any) {
+        UIApplication.shared.openURL(URL(string: "http://www.cachc.org/services.htm")!)
     }
 }
 

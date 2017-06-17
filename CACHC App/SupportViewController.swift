@@ -26,57 +26,57 @@ class SupportViewController: UIViewController, MFMailComposeViewControllerDelega
     }
     
     //MARK: Actions
-    @IBAction func twitButton(sender: AnyObject) {
+    @IBAction func twitButton(_ sender: Any) {
         let twitURL = "twitter://user?screen_name=cachc"
         let normURL = "https://twitter.com/cachc"
         
         //checks if Twitter app is installed, and if it is not, opens url in Safari
-        if UIApplication.sharedApplication().canOpenURL(NSURL(string: twitURL)!) {
-            UIApplication.sharedApplication().openURL(NSURL(string: twitURL)!)
+        if UIApplication.shared.canOpenURL(URL(string: twitURL)!) {
+            UIApplication.shared.openURL(URL(string: twitURL)!)
         } else {
-            UIApplication.sharedApplication().openURL(NSURL(string: normURL)!)
+            UIApplication.shared.openURL(URL(string: normURL)!)
         }
     }
     
-    @IBAction func fbButton(sender: AnyObject) {
+    @IBAction func fbButton(_ sender: Any) {
         let fbURL = "fb://profile/77355790001"
         let normURL = "https://www.facebook.com/CACofHamiltonCounty"
         
         //checks if Facebook app is installed, and if it is not, opens url in Safari
-        if UIApplication.sharedApplication().canOpenURL(NSURL(string: fbURL)!) {
-            UIApplication.sharedApplication().openURL(NSURL(string: fbURL)!)
+        if UIApplication.shared.canOpenURL(URL(string: fbURL)!) {
+            UIApplication.shared.openURL(URL(string: fbURL)!)
         } else {
-            UIApplication.sharedApplication().openURL(NSURL(string: normURL)!)
+            UIApplication.shared.openURL(URL(string: normURL)!)
         }
     }
     
-    @IBAction func instaButton(sender: AnyObject) {
+    @IBAction func instaButton(_ sender: Any) {
         let instaURL = "instagram://user?username=childrens_advocacy_center"
         let normURL = "https://instagram.com/childrens_advocacy_center/"
         
         //checks if Instagram is installed, and if it is not, opens url in Safari
-        if UIApplication.sharedApplication().canOpenURL(NSURL(string: instaURL)!) {
-            UIApplication.sharedApplication().openURL(NSURL(string: instaURL)!)
+        if UIApplication.shared.canOpenURL(URL(string: instaURL)!) {
+            UIApplication.shared.openURL(URL(string: instaURL)!)
         } else {
-            UIApplication.sharedApplication().openURL(NSURL(string: normURL)!)
+            UIApplication.shared.openURL(URL(string: normURL)!)
         }
     }
     
-    @IBAction func donorViewButton(sender: AnyObject) {
+    @IBAction func donorViewButton(_ sender: Any) {
         let donateURL = "http://bit.ly/1ikJhEY"
         
-        if UIApplication.sharedApplication().canOpenURL(NSURL(string: donateURL)!) {
-            UIApplication.sharedApplication().openURL(NSURL(string: donateURL)!)
+        if UIApplication.shared.canOpenURL(URL(string: donateURL)!) {
+            UIApplication.shared.openURL(URL(string: donateURL)!)
         } else {
-            UIApplication.sharedApplication().openURL(NSURL(string: donateURL)!)
+            UIApplication.shared.openURL(URL(string: donateURL)!)
         }
     }
     
-    @IBAction func volButton(sender: AnyObject) {
+    @IBAction func volButton(_ sender: Any) {
         let mailComposeViewController = configuredMailComposeViewController()
         
         if MFMailComposeViewController.canSendMail() {
-            self.presentViewController(mailComposeViewController, animated: true, completion: nil)
+            self.present(mailComposeViewController, animated: true, completion: nil)
         } else {
             self.showSendMailErrorAlert()
         }
@@ -99,7 +99,7 @@ class SupportViewController: UIViewController, MFMailComposeViewControllerDelega
         sendMailErrorAlert.show()
     }
     
-    func mailComposeController(controller: MFMailComposeViewController, didFinishWithResult result: MFMailComposeResult, error: NSError?) {
-        controller.dismissViewControllerAnimated(true, completion: nil)
+    func mailComposeController(_ controller: MFMailComposeViewController, didFinishWith result: MFMailComposeResult, error: Error?) {
+        controller.dismiss(animated: true, completion: nil)
     }  
 }
